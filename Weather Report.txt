@@ -1,0 +1,13 @@
+# weather_forecast.py
+import random
+
+cities = ["London", "New York", "Tokyo", "Dhaka", "Paris"]
+conditions = ["Sunny", "Rainy", "Cloudy", "Windy", "Stormy"]
+
+city = random.choice(cities)
+temperature = round(random.uniform(18, 35), 1)
+condition = random.choice(conditions)
+
+print(f"Weather Report for {city}")
+print(f"Condition: {condition}")
+print(f"Temperature: {temperature}°C")
